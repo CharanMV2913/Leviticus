@@ -1,0 +1,33 @@
+@for $i from 2 through 10 {
+    .avatar-#{$i}{
+        width: $i * 8px;
+        height: $i * 8px;
+        border-radius: $i * 8px;
+        overflow: hidden;
+
+        img {
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+            object-fit: cover;
+        }
+    }
+}
+
+
+
+@for $i from 5 through 6 {
+    .box-img-#{$i}{
+        width: $i * 8px;
+        height: $i * 8px;
+        border-radius: $i * .8px;
+        overflow: hidden;
+
+        img {
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+            object-fit: cover;
+        }
+    }
+}

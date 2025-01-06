@@ -1,0 +1,13 @@
+# Ignore compiled files
+*.o
+*.class
+
+# Ignore log files
+*.log
+*.map
+
+# Ignore temporary files
+temp/
+
+# Ignore sensitive information
+secret.txt

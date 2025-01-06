@@ -1,0 +1,30 @@
+.search-box {
+    position: relative;
+
+    input {
+        border-radius: 100px;
+        padding-left: 50px;
+    }
+
+    .icon-container {
+        width: 40px;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: grid;
+        place-content: center;
+    }
+
+}
+
+
+.search-style {
+    max-width: 200px;
+    @extend .search-box;
+}
+
+.search-style-1 {
+    max-width: 300px;
+    @extend .search-box;
+}

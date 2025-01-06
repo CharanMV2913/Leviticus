@@ -1,0 +1,35 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500&family=Playfair+Display:ital,wght@0,400;0,500;0,800;1,500&family=Raleway:wght@200;300;400;500;600;700&family=Wix+Madefor+Display:wght@400;500;600;700;800&display=swap');
+
+
+body {
+    font-family: 'Raleway', sans-serif !important;
+}
+
+.font-1 {
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.font-2 {
+    font-family: 'Wix Madefor Display', sans-serif;
+}
+
+.font-3 {
+    font-family: 'Playfair Display', serif;
+}
+
+@import "../scss/common/layout";
+@import "../scss/common/avatar";
+@import "../scss/common/icon";
+@import "../scss/common/grid";
+@import "../scss/common/text";
+@import "../scss/common/button";
+@import "../scss/common/container";
+@import "../scss/common/input";
+@import "../scss/common/helper";
+
+@import "../scss/pages/home";
+@import "../scss/pages/subpage";
+
+@import "../scss/custom/ripple";
+

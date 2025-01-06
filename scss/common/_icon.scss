@@ -1,0 +1,12 @@
+@for $i from 1 to 30 {
+    .ic-#{$i * 2} {
+        width: $i * 2px;
+        height: $i * 2px;
+    }
+}
+
+
+.ic-100 {
+    width: 130px;
+    height: 130px;
+}
